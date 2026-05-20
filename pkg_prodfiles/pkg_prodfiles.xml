@@ -3,7 +3,7 @@
 	<name>PKG_PRODFILES</name>
 	<packagename>prodfiles</packagename>
 	<creationDate>20.05.2026</creationDate>
-	<author>sland</author>
+	<author>Oleksandr Bessarab</author>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<version>1.0.0</version>
 	<description>PKG_PRODFILES_XML_DESCRIPTION</description>
