@@ -2,7 +2,7 @@
 <extension type="component" version="4.0" method="upgrade">
 	<name>COM_PRODFILES</name>
 	<creationDate>18.05.2026</creationDate>
-	<author>sland</author>
+	<author>Oleksandr Bessarab</author>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<version>1.0.0</version>
 	<description>COM_PRODFILES_XML_DESCRIPTION</description>
