@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fields name="params">
+		<fieldset name="fields" label="COM_PRODFILES_CONFIG_FIELDS_LABEL">
+			<field
+				name="extra_fields"
+				type="textarea"
+				rows="8"
+				label="COM_PRODFILES_EXTRA_FIELDS_LABEL"
+				description="COM_PRODFILES_EXTRA_FIELDS_DESC"
+				filter="raw"
+			/>
+		</fieldset>
+	</fields>
+</config>

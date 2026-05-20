@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="4.0" group="jshopping" method="upgrade">
+	<name>PLG_JSHOPPING_PRODFILES</name>
+	<creationDate>18.05.2026</creationDate>
+	<author>sland</author>
+	<authorEmail>your@email.com</authorEmail>
+	<authorUrl>http://your.url.com</authorUrl>
+	<copyright>A copyright</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.2.7</version>
+	<description>PLG_JSHOPPING_PRODFILES_XML_DESCRIPTION</description>
+
+	<!-- Language files -->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_jshopping_prodfiles.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_jshopping_prodfiles.sys.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.plg_jshopping_prodfiles.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.plg_jshopping_prodfiles.sys.ini</language>
+	</languages>
+
+	<!-- Plugin files -->
+	<files>
+		<filename plugin="prodfiles">prodfiles.php</filename>
+		<folder>services</folder>
+		<folder>language</folder>
+	</files>
+
+	<!-- Config parameter -->
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="allowed_extensions"
+					type="text"
+					default="pdf,doc,docx,xls,xlsx,zip,rar,jpg,jpeg,png,txt"
+					label="PLG_JSHOPPING_PRODFILES_ALLOWED_EXTENSIONS_LABEL"
+					description="PLG_JSHOPPING_PRODFILES_ALLOWED_EXTENSIONS_DESCRIPTION"
+				/>
+				<field
+					name="display_position"
+					type="text"
+					default="_tmp_product_html_after_buttons"
+					label="PLG_JSHOPPING_PRODFILES_DISPLAY_POSITION_LABEL"
+					description="PLG_JSHOPPING_PRODFILES_DISPLAY_POSITION_DESCRIPTION"
+				/>
+				<field
+					name="debug"
+					type="radio"
+					default="0"
+					label="PLG_JSHOPPING_PRODFILES_DEBUG_LABEL"
+					description="PLG_JSHOPPING_PRODFILES_DEBUG_DESCRIPTION"
+					layout="joomla.form.field.radio.switcher"
+					>
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

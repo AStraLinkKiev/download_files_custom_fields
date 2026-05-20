@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="4.0" method="upgrade">
+	<name>PKG_PRODFILES</name>
+	<packagename>prodfiles</packagename>
+	<creationDate>20.05.2026</creationDate>
+	<author>sland</author>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>PKG_PRODFILES_XML_DESCRIPTION</description>
+	<scriptfile>script.php</scriptfile>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_prodfiles.sys.ini</language>
+		<language tag="uk-UA">uk-UA/uk-UA.pkg_prodfiles.sys.ini</language>
+	</languages>
+	<files>
+		<file type="component" id="com_prodfiles">com_prodfiles.zip</file>
+		<file type="plugin" id="prodfiles" group="jshopping">plg_jshopping_prodfiles_bridge.zip</file>
+	</files>
+</extension>

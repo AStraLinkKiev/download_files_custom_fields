@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="4.0" method="upgrade">
+	<name>COM_PRODFILES</name>
+	<creationDate>18.05.2026</creationDate>
+	<author>sland</author>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>COM_PRODFILES_XML_DESCRIPTION</description>
+	<namespace path="src">Joomla\Component\Prodfiles</namespace>
+
+	<administration>
+		<menu>COM_PRODFILES</menu>
+		<files folder="administrator">
+			<filename>config.xml</filename>
+			<folder>src</folder>
+			<folder>services</folder>
+			<folder>tmpl</folder>
+			<folder>language</folder>
+		</files>
+		<languages folder="administrator/language">
+			<language tag="en-GB">en-GB/com_prodfiles.ini</language>
+			<language tag="en-GB">en-GB/com_prodfiles.sys.ini</language>
+			<language tag="uk-UA">uk-UA/com_prodfiles.ini</language>
+			<language tag="uk-UA">uk-UA/com_prodfiles.sys.ini</language>
+		</languages>
+	</administration>
+
+	<files folder="site">
+		<filename>router.php</filename>
+		<folder>src</folder>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+	</files>
+
+	<languages folder="site/language">
+		<language tag="en-GB">en-GB/com_prodfiles.ini</language>
+		<language tag="uk-UA">uk-UA/com_prodfiles.ini</language>
+	</languages>
+
+	<media folder="media" destination="com_prodfiles">
+		<folder>css</folder>
+		<folder>js</folder>
+	</media>
+</extension>
