@@ -2,10 +2,10 @@
 <extension type="plugin" version="4.0" group="jshopping" method="upgrade">
 	<name>PLG_JSHOPPING_PRODFILES</name>
 	<creationDate>18.05.2026</creationDate>
-	<author>sland</author>
-	<authorEmail>your@email.com</authorEmail>
-	<authorUrl>http://your.url.com</authorUrl>
-	<copyright>A copyright</copyright>
+	<author>Oleksandr Bessarab</author>
+	<authorEmail>info@astra-link.com.ua</authorEmail>
+	<authorUrl>https://astra-link.com.ua</authorUrl>
+	<copyright>Oleksandr Bessarab</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<version>1.2.7</version>
 	<description>PLG_JSHOPPING_PRODFILES_XML_DESCRIPTION</description>
